@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: "GraphikMedium";
+    src: url(../fonts/Graphik-Medium.ttf);
+}
+@font-face{
+    font-family: "GraphikRegular";
+    src: url(../fonts/Graphik-Regular.woff);
+}
+@font-face{
+    font-family: "TheinhardtLt";
+    src: url(../fonts/Theinhardt-Lt.woff);
+}
+@font-face{
+    font-family: "TiemposHeadline";
+    src: url(../fonts/TiemposHeadline-Semibold.woff);
+}
+/* Header navigation */
+
+.logo{
+    display: inline-block;
+    width: 25%;
+    font-family: "TiemposHeadline";
+    position: center;
+}
+nav{
+    display: inline-block;
+    width: 45%;
+    text-align: left;
+    font-family: "GraphikMedium";
+}
+li{
+    display: inline-block;
+    padding: 5%;
+}
+.start{
+    display: inline-block;
+    width: 25%;
+    text-align: right;
+    font-family: "GraphikMedium";
+}
+.start a{
+    border: 2px solid rgb(36, 36, 36);
+    padding: .5em 3em;
+    border-radius: 4px;
+}
+a{
+    text-decoration: none;
+    color: rgb(38, 38, 38);
+}
+/* Header navigation Ende */
+/* Header background */
+header h2{
+    text-align: center;
+    font-size: 3em;
+    font-family: "GraphikRegular";
+    color: rgb(38, 38, 38);
+}
+.back{
+    background: url(/img/home_hero.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+/* Header background  Ende */
+/* Main Tabelle */
+.con{
+    display: flex;
+    width: 100%;
+    justify-content: baseline;
+    margin-left: 8em;
+    
+}
+.review{
+    font-size: 1.5em;
+    font-family: "GraphikMedium";
+    width: 46%;
+    margin: 2em;
+}
+.abo{
+    font-family: "TheinhardtLt";
+    text-align: left;
+    color: grey;
+    width: 20%;
+    padding: 0;
+    margin-left: 2em;
+}
+.abo p:nth-of-type(1){
+    color: rgb(38, 38, 38);
+    margin-bottom: 0;
+    font-size: 4.5em;
+}
+.abo p:nth-of-type(2){
+    color: grey;
+    margin-top: 0;
+    font-size: 1.5em;
+}
